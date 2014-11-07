@@ -1,0 +1,49 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" 
+    >
+
+    <group
+        android:id="@+id/PHONE_MENU"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/phone">
+    	<item 
+    	    android:id="@+id/PHONE_MENU_itme1"
+	        android:orderInCategory="100"
+	        android:showAsAction="never"
+	        android:title="@string/phone"/>   
+    </group>
+
+    <group
+        android:id="@+id/EMAIL_MENU"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/email">
+    </group>
+    
+    <group
+        android:id="@+id/GEO_MENU"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/map">
+    </group>
+    
+    <group
+        android:id="@+id/IMAGE_MENU"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/picture">
+    	<item 
+    	    android:id="@+id/IMAGE_MENU_itme1"
+	        android:orderInCategory="100"
+	        android:showAsAction="never"
+	        android:title="@string/picture"/>   
+    </group>
+    
+    <group
+        android:id="@+id/ANCHOR_MENU"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/link">
+    </group>
+    
+</menu>
